@@ -7,19 +7,15 @@
 
 int main(void)
 {
-	char alphabet = 'a';
+	int ch;
+	clrscr();
 
-       	while (alphabet <= 'z')
-       	{
-		putchar(alphabet);
-		alphabet++;
-	}
-	char alphabets;
+	for (ch= ‘a’; ch<= ‘z’; ch++)
+		putchar(ch);
 
-	for (alphabets = 'A'; alphabets <= 'Z' ; alphabets++)
-	{
-		putchar(alphabets);
-	}
-		putchar('\n');
-		return (0);                                                                                                     
-}     
+	for (ch= ‘A’; ch<= ‘Z’; ch++)
+		putchar(ch);
+
+	putchar("\n");
+	return(0);
+}
