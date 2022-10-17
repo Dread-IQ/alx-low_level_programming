@@ -9,7 +9,7 @@ int main(void)
 {
 	int ch;
 
-
+        clrscr();
 
 	for (ch = ‘a’; ch <= ‘z’; ch++)
 		putchar(ch);
