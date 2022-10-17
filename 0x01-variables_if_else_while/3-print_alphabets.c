@@ -15,7 +15,7 @@ int main(void)
 	for (lett = 'A'; lett <= 'Z'; lett++)
 		putchar(lett);
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
