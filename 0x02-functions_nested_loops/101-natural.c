@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Lists all the natural numbers below 1024 (excluded)
+ * main - Lists all the natural numbers below 1024.
  * that are multiples of 3 or 5.
- * 
+ *
  *  Return:0.
  */
 int main(void)
