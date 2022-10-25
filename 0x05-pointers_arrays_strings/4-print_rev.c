@@ -1,5 +1,5 @@
 #include "hamza.h"
-
+#include <stdlib.h>
 /**
  * print_rev - Prints a reversed string.
  * @s: The string.
